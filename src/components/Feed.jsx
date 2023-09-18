@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
 import { Box, Stack, Typography } from '@mui/material'
-import SideBar from './SideBar'
+import {SideBar, Videos} from './'
 
 const Feed = () => {
   return (
@@ -27,6 +27,7 @@ const Feed = () => {
           New <span style={{ color: '#F31503' }}>videos</span>
         </Typography>
       </Box>
+      <Videos />
     </Stack>
   )
 }
