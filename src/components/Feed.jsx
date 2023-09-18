@@ -19,7 +19,8 @@ const Feed = () => {
         borderRight: '1px solid #3d3d3d',
         px: { sx: 0, md: 2 }
       }}>
-        <SideBar />
+        <SideBar selectedCategory={selectedCategory}
+        setSelectedCategory={setSelectedCategory}/>
         <Typography
           className='copyright'
           variant='body2'
