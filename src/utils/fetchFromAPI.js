@@ -5,7 +5,8 @@ const options = {
     url: BASE_URL,
     params: {
       part: 'snippet',
-      videoId: 'M7FIvfx5J10'
+      videoId: 'M7FIvfx5J10',
+      maxResults: '50'
     },
     headers: {
       'X-RapidAPI-Key': import.meta.env.VITE_REACT_RAPID_API_KEY,
