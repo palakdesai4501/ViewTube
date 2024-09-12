@@ -18,7 +18,7 @@ This project is built using React.js, ensuring a modern and efficient user exper
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/viewtube.git
+    git clone https://github.com/palakdesai4501/ViewTube
     cd viewtube
     ```
 
